@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StudentApi.AppDbContext.StudentDbcontext">
+    <Position X="6.25" Y="3.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppDbContext\StudentDbcontext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.DTOs.GroupInputDto">
+    <Position X="4.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\GroupInputDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.DTOs.GroupOutputDto">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DTOs\GroupOutputDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.DTOs.StudentInputDto">
+    <Position X="4.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAEACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>DTOs\StudentInputDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.DTOs.StudentOutputDto">
+    <Position X="6.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>DTOs\StudentOutputDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.Entities.Group">
+    <Position X="2.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Group.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.Entities.Student">
+    <Position X="2.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAEACAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Entities\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.Controllers.GroupsController">
+    <Position X="14.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAAAAAEAAAAAAAAAAAAAEQAAAAAAAEAABA=</HashCode>
+      <FileName>Controllers\GroupsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.Controllers.StudentsController">
+    <Position X="14.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABIAAAEAAAEAAAAAAAAAAAAAEAIAQAAAIAAAAA=</HashCode>
+      <FileName>Controllers\StudentsController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StudentApi.Repository.GroupRepository" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAIAQAAACAAAEAABQ=</HashCode>
+      <FileName>Repository\GroupRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StudentApi.Repository.StudentRepository" BaseTypeListCollapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIABAAAAEAAAAAAAAAAAAAAAAAABIAQAAAACAAAA=</HashCode>
+      <FileName>Repository\StudentRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="StudentApi.ContractInterface.IGroupRepository">
+    <Position X="8.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAIAQAAACAAAEAABQ=</HashCode>
+      <FileName>ContractInterface\IGroupRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StudentApi.ContractInterface.IStudentRepository">
+    <Position X="8.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAEAAAAAAAAAAAAAAAAAABIAQAAAACAAAA=</HashCode>
+      <FileName>ContractInterface\IStudentRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Arial" Size="9" />
+</ClassDiagram>
